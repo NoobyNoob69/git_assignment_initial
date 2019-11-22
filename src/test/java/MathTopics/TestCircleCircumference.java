@@ -9,7 +9,7 @@ public class TestCircleCircumference {
 	public void CircleCircumferenceTest() {
 		double TestRes = CircleCircumference.GetCircleCircumference(5);
 
-		double ans = 440 / 7;
+		double ans = 440 / 7 + 1;
 
 		assertEquals(ans, TestRes, 0);
 	}
