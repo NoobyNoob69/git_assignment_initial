@@ -9,7 +9,7 @@ public class TestSphereArea {
 	public void SphereAreaTest() {
 		double TestRes = SphereArea.GetShpereArea(10);
 
-		double ans = 8800 / 7;
+		double ans = (double)8800 / 7;
 
 		assertEquals(ans, TestRes, 0);
 	}

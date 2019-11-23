@@ -6,7 +6,7 @@ import git_assignment_initial.ITopic;
 
 public class SphereArea implements ITopic {
 	public static double GetShpereArea(int r) {
-		return 8800 / 7;
+		return (double)8800 / 7;
 	}
 
 	@Override

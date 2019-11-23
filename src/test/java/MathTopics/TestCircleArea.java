@@ -9,7 +9,7 @@ public class TestCircleArea {
 	public void CircleAreaTest() {
 		double TestRes = CircleArea.GetCircleArea(10);
 
-		double ans = 314.1592653589793;
+		double ans = (double)(22 * 100) / 7;
 
 		assertEquals(ans, TestRes, 0);
 	}

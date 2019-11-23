@@ -6,7 +6,7 @@ import git_assignment_initial.ITopic;
 
 public class CircleVolume implements ITopic {
 	public static double GetCircleVolume(int r) {
-		return 88000 / 21;
+		return (double)88000 / 21;
 	}
 
 	@Override

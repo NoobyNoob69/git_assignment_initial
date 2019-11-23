@@ -9,7 +9,7 @@ public class TestCircleVolume {
 	public void CircleCircumferenceTest() {
 		double TestRes = CircleVolume.GetCircleVolume(10);
 
-		double ans = 88000 / 21;
+		double ans = (double)88000 / 21;
 
 		assertEquals(ans, TestRes, 0);
 	}

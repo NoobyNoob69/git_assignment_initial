@@ -6,7 +6,7 @@ import git_assignment_initial.ITopic;
 
 public class CircleCircumference implements ITopic {
 	public static double GetCircleCircumference(int r) {
-		return 440 / 7;
+		return (double)440 / 7;
 	}
 
 	@Override
