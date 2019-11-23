@@ -1,20 +1,19 @@
 package MathTopics;
 
 import git_assignment_initial.*;
-import java.lang.Math;
 
 public class CircleArea implements ITopic {
 
 	public static double GetCircleArea(int r) {
-		return Math.PI * r * r;
+		return (double)(22 * r * r) / 7;
 	}
 
 	@Override
-	public void NotifyTopic(int input) {
+	public String NotifyTopic(int input) {
 		double ans = GetCircleArea(input);
 
-		PrintStyle.print(input);
+		String output = PrintStyle.print(input, "Circle Area") + ans;
 
-		System.out.println(ans);
+		return output;
 	}
 }

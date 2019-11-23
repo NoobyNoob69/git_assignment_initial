@@ -1,5 +1,5 @@
 package git_assignment_initial;
 
 public interface ITopic {
-	public abstract void NotifyTopic(int input);
+	public abstract String NotifyTopic(int input);
 }

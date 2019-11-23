@@ -1,7 +1,7 @@
 package git_assignment_initial;
 
 public class PrintStyle {
-	public static void print(int n) {
-		System.out.print("Input = " + n + "\nCircle Area = ");
+	public static String print(int n, String func) {
+		return "Input = " + n + "\n" + func + " = ";
 	}
 }

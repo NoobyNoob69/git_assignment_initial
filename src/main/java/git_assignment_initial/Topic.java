@@ -7,20 +7,30 @@ public class Topic {
 	private List<ITopic> TopicList;
 
 	public Topic() {
-		TopicList = new ArrayList<ITopic>();
+		this.TopicList = new ArrayList<ITopic>();
 	}
 
 	public void AddTopic(ITopic topic) {
-		TopicList.add(topic);
+		this.TopicList.add(topic);
 	}
 
 	public List<ITopic> GetTopics() {
-		return TopicList;
+		return this.TopicList;
 	}
 
-	public void DoEvent(int input) {
+	public String DoEvent(int input) {
+		String[] output = new String[TopicList.size()];
+		int i = 0;
 		for (ITopic topic : TopicList) {
-			topic.NotifyTopic(input);
+			output[i] = topic.NotifyTopic(input);
+			i++;
 		}
+
+		String res = new String();
+		for (String str : output) {
+			res += str + "\n";
+		}
+
+		return res;
 	}
 }
