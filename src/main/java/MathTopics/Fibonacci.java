@@ -40,7 +40,7 @@ public class Fibonacci implements ITopic {
 	@Override
 	public String NotifyTopic(int input) {
 		long ans = GetFib(input);
-		String output = PrintStyle.print(input, "Fibonacci") + ans;
+		String output = PrintStyle.print(input, "Fib") + ans;
 		return output;
 	}
 }
