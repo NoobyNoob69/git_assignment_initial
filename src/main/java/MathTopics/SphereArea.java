@@ -13,7 +13,7 @@ public class SphereArea implements ITopic {
 	@Override
 	public String NotifyTopic(int input) {
 		double ans = GetShpereArea(input);
-		String output = PrintStyle.print(input, "Fib") + ans;
+		String output = PrintStyle.print(input, "Sphere Area") + ans;
 		return output;
 	}
 

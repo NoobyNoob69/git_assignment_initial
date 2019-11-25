@@ -1,6 +1,7 @@
 package git_assignment_initial;
 
 import static org.junit.Assert.assertEquals;
+
 import org.junit.Test;
 
 import MathTopics.CircleArea;
@@ -37,7 +38,6 @@ public class TestIntegration {
 				+ "\nInput = 10\nFib = " + 55
 				+ "\nInput = 10\nLucas = " + 123
 				+ "\nInput = 10\nSphere Area = " + (double)8800 / 7
-				+ "\nInput = 10\nShpere Area = " + (double)8800 / 7
 				+ "\nInput = 10\nSum = " + 55
 				+ "\nInput = 10\n2PN = " + 1024
 				+ "\n";
