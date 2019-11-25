@@ -18,8 +18,8 @@ public class LucasSeries implements ITopic {
 
     @Override
     public String NotifyTopic(int input) {
-        long ans = GetLucas(10);
-        String output = PrintStyle.print(input, "lucas") + ans;
+        long ans = GetLucas(input);
+        String output = PrintStyle.print(input, "Lucas") + ans;
         return output;
     }
 }
